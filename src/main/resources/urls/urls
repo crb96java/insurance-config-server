@@ -1,0 +1,27 @@
+actuater-default-url : http://localhost:8888/actuater/default
+
+JSON Response:
+-------------
+{
+  "name": "actuater",
+  "profiles": [
+    "default"
+  ],
+  "label": null,
+  "version": "ba2708ba34d99eb7654789d749128206612eb3de",
+  "state": null,
+  "propertySources": [
+    {
+      "name": "https://github.com/crb96java/insurance-config-server/application.properties",
+      "source": {
+        "insurance.provider.url": "http://localhost:8888/insurance-server/getAllPlans"
+      }
+    },
+    {
+      "name": "https://github.com/crb96java/insurance-config-server/application.yml",
+      "source": {
+        "document": "insurance.provider.url = http://localhost:8085/insurance-server/get-all-plans"
+      }
+    }
+  ]
+}
