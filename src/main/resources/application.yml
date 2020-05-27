@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/crb96java/insurance-config-server
+          uri: https://github.com/crb96java/config-server-evn
 management:
   endpoints:
     web:
